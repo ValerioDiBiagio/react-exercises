@@ -1,11 +1,11 @@
-import Logger from './exercises/useEffect/Logger';
+import Welcome from "./exercises/props/Welcome"
 
 
 function App() {
 
   return (
     <>
-      <Logger />
+      <Welcome nome="Valerio" />
     </>
 
   )
