@@ -1,11 +1,10 @@
-import Welcome from "./exercises/props/Welcome"
-
+import Greeting from "./exercises/props/Greeting"
 
 function App() {
 
   return (
     <>
-      <Welcome nome="Valerio" />
+      <Greeting name="Valerio" />
     </>
 
   )
