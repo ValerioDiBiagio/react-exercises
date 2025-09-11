@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <Greeting name="Valerio" />
+      <Greeting name="" />
     </>
 
   )
