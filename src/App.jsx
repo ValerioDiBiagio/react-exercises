@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import Counter from './exercises/usestate/counter'
+import Logger from './exercises/useEffect/Logger';
 
 
 function App() {
 
   return (
     <>
-      <Counter />
+      <Logger />
     </>
 
   )
