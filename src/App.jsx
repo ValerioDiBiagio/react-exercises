@@ -1,9 +1,9 @@
-import Profile from "./exercises/props/Profile";
+import Message from "./exercises/props/Message";
 
 function App() {
   return (
     <>
-      <Profile name="Anna" age={30} />
+      <Message text="Ciao a tutti!" />
 
     </>
   );
