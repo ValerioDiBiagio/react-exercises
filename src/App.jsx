@@ -1,13 +1,9 @@
-import CounterButton from "./exercises/props/CounterButton";
-
+import GreetingTwo from "./exercises/props/GreetingTwo";
 function App() {
-  function handleIncrement() {
-    console.log("Incrementato!");
-  }
 
   return (
     <>
-      <CounterButton increment={handleIncrement} />
+      <GreetingTwo name="Luca" lastname="Rossi" />
 
     </>
   );
