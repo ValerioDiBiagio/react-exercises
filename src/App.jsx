@@ -1,9 +1,13 @@
-import ColoredText from "./exercises/props/ColoredText";
+import CounterButton from "./exercises/props/CounterButton";
 
 function App() {
+  function handleIncrement() {
+    console.log("Incrementato!");
+  }
+
   return (
     <>
-      <ColoredText color="red" />
+      <CounterButton increment={handleIncrement} />
 
     </>
   );
