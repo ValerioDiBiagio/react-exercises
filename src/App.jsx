@@ -1,9 +1,9 @@
-import Toggle from "./exercises/useState/Toggle";
+import InputMirror from "./exercises/useState/InputMirror";
 
 function App() {
   return (
     <>
-      <Toggle />
+      <InputMirror />
 
     </>
   );
