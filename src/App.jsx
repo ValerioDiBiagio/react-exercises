@@ -1,9 +1,9 @@
-import Message from "./exercises/props/Message";
+import ColoredText from "./exercises/props/ColoredText";
 
 function App() {
   return (
     <>
-      <Message text="Ciao a tutti!" />
+      <ColoredText color="red" />
 
     </>
   );
