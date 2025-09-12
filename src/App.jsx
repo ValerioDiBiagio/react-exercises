@@ -1,9 +1,9 @@
-import Button from "./exercises/props/Button";
+import AlertMessage from "./exercises/props/AlertMessage";
 
 function App() {
   return (
     <>
-      <Button label="Invia" />
+      <AlertMessage message="Error" />
 
     </>
   );
