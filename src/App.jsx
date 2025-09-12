@@ -1,9 +1,9 @@
-import CounterTwo from "./exercises/useState/CounterTwo";
+import Toggle from "./exercises/useState/Toggle";
 
 function App() {
   return (
     <>
-      <CounterTwo />
+      <Toggle />
 
     </>
   );
