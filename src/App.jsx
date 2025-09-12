@@ -1,9 +1,9 @@
-import WelcomeTwo from "./exercises/props/WelcomeTwo";
+import UserCard from "./exercises/props/UserCard";
 
 function App() {
   return (
     <>
-      <WelcomeTwo name="Valerio" />
+      <UserCard name="Valerio" age="29" />
 
     </>
   );
