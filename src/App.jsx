@@ -1,9 +1,9 @@
-import ColoredBox from "./exercises/props/ColoredBox";
+import Profile from "./exercises/props/Profile";
 
 function App() {
   return (
     <>
-      <ColoredBox backgroundColor="#df2121ff" backgroundText="Red" />
+      <Profile name="Anna" age={30} />
 
     </>
   );
