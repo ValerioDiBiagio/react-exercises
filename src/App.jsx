@@ -1,9 +1,9 @@
-import InputMirror from "./exercises/useState/InputMirror";
+import WelcomeTwo from "./exercises/props/WelcomeTwo";
 
 function App() {
   return (
     <>
-      <InputMirror />
+      <WelcomeTwo name="Valerio" />
 
     </>
   );
