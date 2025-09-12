@@ -1,9 +1,9 @@
-import AlertMessage from "./exercises/props/AlertMessage";
+import ColoredBox from "./exercises/props/ColoredBox";
 
 function App() {
   return (
     <>
-      <AlertMessage message="Error" />
+      <ColoredBox backgroundColor="#df2121ff" backgroundText="Red" />
 
     </>
   );
