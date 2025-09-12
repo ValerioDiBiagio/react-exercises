@@ -1,9 +1,9 @@
-import UserCard from "./exercises/props/UserCard";
+import Button from "./exercises/props/Button";
 
 function App() {
   return (
     <>
-      <UserCard name="Valerio" age="29" />
+      <Button label="Invia" />
 
     </>
   );
