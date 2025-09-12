@@ -1,5 +1,5 @@
 // Counter.jsx
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Counter() {
     // TODO: dichiara una variabile di stato 'count' inizializzata a 0
@@ -9,6 +9,10 @@ export default function Counter() {
         setCount(count + 2)
     }
 
+    function decrementa() {
+        setCount(count - 2)
+    }
+
     return (
         <div>
             <p>Valore: {/* mostra qui il valore di count */count}</p>
@@ -16,6 +20,10 @@ export default function Counter() {
             // TODO: al click incrementa il valore di count di 2
             >
                 Aumenta
+            </button>
+
+            <button onClick={decrementa}>
+                Diminuisci
             </button>
         </div>
     );
