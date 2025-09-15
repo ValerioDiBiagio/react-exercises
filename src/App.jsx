@@ -1,9 +1,9 @@
-import TextInput from "./exercises/useState/TextInput";
+import GreetingThree from "./exercises/props/GreetingThree";
 function App() {
 
   return (
     <>
-      <TextInput />
+      <GreetingThree name="Valerio" />
 
     </>
   );
