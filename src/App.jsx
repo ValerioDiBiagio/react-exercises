@@ -1,9 +1,9 @@
-import AdvancedCounter from "./exercises/useState/AdvancedCounter";
+import LiveInput from "./exercises/useState/LiveInput";
 function App() {
 
   return (
     <>
-      <AdvancedCounter />
+      <LiveInput />
 
     </>
   );
