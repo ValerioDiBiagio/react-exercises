@@ -1,9 +1,9 @@
-import CounterThree from "./exercises/useState/CounterThree";
+import TextInput from "./exercises/useState/TextInput";
 function App() {
 
   return (
     <>
-      <CounterThree />
+      <TextInput />
 
     </>
   );
