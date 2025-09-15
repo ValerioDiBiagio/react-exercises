@@ -1,9 +1,9 @@
-import GreetingTwo from "./exercises/props/GreetingTwo";
+import CounterThree from "./exercises/useState/CounterThree";
 function App() {
 
   return (
     <>
-      <GreetingTwo name="Luca" lastname="Rossi" />
+      <CounterThree />
 
     </>
   );
