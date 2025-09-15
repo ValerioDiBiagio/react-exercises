@@ -1,9 +1,9 @@
-import LiveInput from "./exercises/useState/LiveInput";
+import GreetingFour from "./exercises/props/GreetingFour";
 function App() {
 
   return (
     <>
-      <LiveInput />
+      <GreetingFour name="Valerio" age={29} />
 
     </>
   );
