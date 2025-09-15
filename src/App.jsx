@@ -1,9 +1,9 @@
-import TodoList from "./exercises/props/TodoList";
+import AdvancedCounter from "./exercises/useState/AdvancedCounter";
 function App() {
 
   return (
     <>
-      <TodoList todos={["Studiare React", "Fare la spesa", "Allenarsi"]} />
+      <AdvancedCounter />
 
     </>
   );
