@@ -1,9 +1,9 @@
-import GreetingThree from "./exercises/props/GreetingThree";
+import TodoList from "./exercises/props/TodoList";
 function App() {
 
   return (
     <>
-      <GreetingThree name="Valerio" />
+      <TodoList todos={["Studiare React", "Fare la spesa", "Allenarsi"]} />
 
     </>
   );
