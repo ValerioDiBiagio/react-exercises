@@ -1,9 +1,9 @@
-import GreetingFour from "./exercises/props/GreetingFour";
+import CounterApp from "./exercises/useState/CounterApp";
 function App() {
 
   return (
     <>
-      <GreetingFour name="Valerio" age={29} />
+      <CounterApp />
 
     </>
   );
