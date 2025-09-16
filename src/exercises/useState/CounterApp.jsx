@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 
 const CounterApp = () => {
@@ -17,6 +17,25 @@ const CounterApp = () => {
             setCount(count - 1);
         }
     };
+
+    // TODO 1: usa useEffect senza dipendenze per stampare "Componente montato"
+    //         e aggiungi anche il return per stampare "Componente smontato"
+
+    useEffect(() => {
+        console.log("Componente montato")
+
+        return () => {
+            console.log("Componente smontato")
+        }
+
+    }, []);
+
+    // TODO 2: usa useEffect con dipendenza [count]
+    //         per stampare in console "Il contatore è: X"
+
+    useEffect(() => {
+        console.log("Il contatore è:", count)
+    }, [count]);
 
     return (
         <div>
